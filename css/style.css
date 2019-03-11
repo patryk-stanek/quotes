@@ -1,0 +1,70 @@
+body {
+  background-image: linear-gradient(to right bottom, orangered, blueviolet);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+h1,
+.quote,
+.author {
+  font-weight: 100;
+  text-align: center;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.author {
+  font-style: italic;
+}
+
+.tweet:link,
+.tweet:visited {
+  text-decoration: none;
+}
+
+.trigger,
+.tweet:link,
+.tweet:visited {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  width: 25%;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: all .2s ease-out;
+}
+
+.trigger:hover, .trigger:active,
+.tweet:link:hover,
+.tweet:link:active,
+.tweet:visited:hover,
+.tweet:visited:active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/*# sourceMappingURL=style.css.map */
